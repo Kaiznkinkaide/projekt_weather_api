@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto_bold";
+    src: url("/assets/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto_regular";
+    src: url("/assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto_thin";
+    src: url("/assets/fonts/Roboto/Roboto-Thin.ttf");
+}
+
+body {
+    background-image: url("/assets/img/herbstblaetter-fallen-anmutig-und-malen-die-generative-ki-der-naturleinwand.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: "Roboto_regular";
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    background-color: #005f69b2;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid white;
+    gap: 1em;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+#input {
+    border-color: white;
+    color: white;
+    background-color: #005f69b2;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cityOutput {
+    display: flex;
+    gap: 5px;
+}
+
+#check {
+    color: white;
+    background-color: #28323498;
+    align-self: center;
+    width: 50%;
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px;
+}
+
+#check:hover {
+    color: lightgray;
+    background-color: #283234f0;
+
+}
+
+#individualCity {
+    font-size: 1.5rem;
+    font-family: "Roboto_bold";
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#countryCodeBox {
+    font-size: 1rem;
+    font-family: "Roboto_thin";
+
+}
+
+#city {
+    display: flex;
+}
+
+#infoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.styleBox {
+    padding: 2.5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    display: flex;
+    gap: 1rem;
+}
+
+.pBox {
+    width: 100px;
+}
+
+
+.styleBox div {
+    font-family: "Roboto_thin";
+}
+
+#nebeneinanderBox {
+    display: flex;
+    align-items: center;
+}
